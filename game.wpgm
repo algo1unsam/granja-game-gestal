@@ -11,7 +11,7 @@ program farmville {
 
 	//  VISUALES
  	game.addVisualCharacter(hector)
- //	game.addVisualIn(new Maiz(), game.at(1, 1))
+ 	game.addVisualIn(new Maiz(), game.at(1, 1))
  	
  	//  COMIENZA
 	game.start()
