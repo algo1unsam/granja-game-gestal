@@ -2,7 +2,6 @@ import hector.*
 import wollok.game.*
 class Cultivo {
 	method image()
-
 	method cosechar(){
 		game.removeVisual(self)
 	}
