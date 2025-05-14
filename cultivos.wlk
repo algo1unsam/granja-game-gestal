@@ -2,7 +2,7 @@ import hector.*
 import wollok.game.*
 class Cultivo {
 	method image()
-	
+
 	method cosechar(){
 		game.removeVisual(self)
 	}
@@ -23,8 +23,8 @@ class Maiz inherits Cultivo {
 			game.say(Maiz, "Ya no puedo crecer más")
 		}
 	}
-}	
 
+}
 class Trigo inherits Cultivo{
 	var property etapa = 0
 	var property oro = 0
@@ -74,3 +74,4 @@ class Tomaco inherits Cultivo{
 //		game.onTick(5000, "regar", {cultivos.forEach{cultivo => cultivo.regar()}})
 //	}
 //}
+
