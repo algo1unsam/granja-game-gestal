@@ -7,13 +7,13 @@ object hector {
 	const cultivos = []
 
 	method sembrarMaiz(){
-		self.sembrar(new Maiz(position = position)))
+		self.sembrar(new Maiz(position = position))
 	}
 	method sembrarTrigo(){
 		self.sembrar(new Trigo(position = position))
 	}
 	method sembrarTomaco(){
-		self.sembrar(new Tomaco(position = position))
+		self.sembrar(new Tomaco(position=position))
 	}
 
 	method sembrar(cultivo){
