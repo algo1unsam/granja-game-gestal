@@ -8,14 +8,14 @@ class Cultivo {
 	method regar()
 	}
 class Maiz inherits Cultivo {
-	var estado = "bebé"
+	var estado = "bebe"
 	var property position 
 	
 	override method image() = if (estado == "bebé") "corn_baby.png" else "corn_adult.png"
 	
 
 	override method regar() {
-		if (estado == "bebé") {
+		if (estado == "bebe") {
 			estado = "adulto"
 		}
 		else {
@@ -48,14 +48,14 @@ class Trigo inherits Cultivo{
 
 
 class Tomaco inherits Cultivo{
-	var estado = "bebé"
+	var estado = "bebe"
 	var property position 
 
-	override method image() = if (estado == "bebé") "tomaco_baby.png" else  "tomaco.png"
+	override method image() = if (estado == "bebe") "tomaco_baby.png" else  "tomaco.png"
 	
 
 	override method regar() {
-		if (estado == "bebé") {
+		if (estado == "bebe") {
 			estado = "adulto"
 		}
 		else {
